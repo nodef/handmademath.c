@@ -1,8 +1,6 @@
 # Handmade Math
 
-A single-file, cross-platform, public domain graphics math library for both C and C++. Supports vectors, matrices, quaternions, and all the utilities you'd expect.
-
-To get started, go download [the latest release](https://github.com/HandmadeMath/HandmadeMath/releases).
+A single-file, cross-platform, public domain graphics math library for both C and C++. Supports vectors, matrices, quaternions, and all the utilities you'd expect. By [Ben Visness](https://github.com/bvisness).
 
 > If you are upgrading to Handmade Math 2.0, save yourself some time and use our [automatic update tool](./update).
 
@@ -13,6 +11,19 @@ Here's what sets Handmade Math apart:
 - **Supports all graphics APIs.** Handmade Math has left- and right-handed versions of each operation, as well as support for zero-to-one and negative-one-to-one NDC conventions.
 - **Swizzling, sort of.** Handmade Math's vector types use unions to provide several ways of accessing the same underlying data. For example, the components of an `HMM_Vec3` can be accessed as `XYZ`, `RGB`, or `UVW` - or subsets can be accessed like `.XY` and `.YZ`.
 - **Your choice of angle unit.** While Handmade Math uses radians by default, you can configure it to use degrees or [turns](https://www.computerenhance.com/p/turns-are-better-than-radians) instead.
+
+
+## Installation
+
+Run:
+```bash
+$ npm i handmademath.c
+```
+
+And then include `handmademath.h` as follows:
+```c
+#include "node_modules/handmademath.c/HandmadeMath.h"
+```
 
 
 ## Usage
@@ -41,3 +52,10 @@ This library is in the public domain. You can do whatever you want with it.
 **Where can I contact you to ask questions?**
 
 Feel free to make GitHub issues for any questions, concerns, or problems you encounter.
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/handmademath.c)
