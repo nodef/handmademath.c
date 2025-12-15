@@ -1,0 +1,25 @@
+{
+  "name": "handmademath.c",
+  "version": "2.0.0",
+  "description": "A simple math library for games and computer graphics. Compatible with both C and C++. Public domain and easy to modify; Ben Visness (2016).",
+  "keywords": [
+    "c",
+    "library",
+    "math",
+    "games",
+    "graphics",
+    "vector",
+    "matrix",
+    "quaternion"
+  ],
+  "homepage": "https://github.com/nodef/handmademath.c#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/handmademath.c/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/handmademath.c.git"
+  },
+  "license": "CC0-1.0",
+  "main": "handmademath.h"
+}
